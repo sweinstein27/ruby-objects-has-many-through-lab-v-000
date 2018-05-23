@@ -19,6 +19,8 @@ def appointments
   @appointments
 end
 
-def add_doctor
+def add_doctor(doctor)
+  @doctors << doctor
+end
 
 end
