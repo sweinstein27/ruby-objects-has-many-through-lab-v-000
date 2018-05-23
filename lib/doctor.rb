@@ -21,4 +21,8 @@ class Doctor
     binding.pry
   end
 
+  def appointments
+    @appointments
+  end
+
 end
