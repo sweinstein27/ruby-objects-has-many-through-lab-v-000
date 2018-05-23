@@ -27,6 +27,7 @@ def songs
 end
 
 def artist
+  binding.pry
 end
 
 end
