@@ -19,8 +19,6 @@ end
 def new_song(name, genre)
 song = Song.new(name, self, genre)
 @songs << song
-self
-binding.pry
 end
 
 def songs
