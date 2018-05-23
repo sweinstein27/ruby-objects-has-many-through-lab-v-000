@@ -10,6 +10,7 @@ def initialize(name)
   @name = name
   @@all << self
   @songs = []
+  @genre = []
 end
 
 def self.all
