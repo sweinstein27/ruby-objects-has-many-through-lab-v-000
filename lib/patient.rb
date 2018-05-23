@@ -18,4 +18,6 @@ def appointments
   @appointments
 end
 
+def add_doctor
+
 end
