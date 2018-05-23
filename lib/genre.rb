@@ -10,4 +10,8 @@ def songs
   @songs
 end
 
+def add_song
+
+end
+
 end
