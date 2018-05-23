@@ -8,8 +8,6 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
   @@all << self
-  binding.pry
-  Genre.songs << self
 end
 
 def self.all
