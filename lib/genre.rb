@@ -18,3 +18,5 @@ end
 def add_artist(artist)
   @artists << artist
 end
+
+end
