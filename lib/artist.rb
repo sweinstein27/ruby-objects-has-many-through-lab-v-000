@@ -26,4 +26,6 @@ def songs
   @songs
 end
 
+def artist
+
 end
