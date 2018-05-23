@@ -5,12 +5,12 @@ class Patient
 
 def initialize(name)
   @name = name
-  @appointment = appointment
+  @appointment = []
 end
 
 def new_appointment(doctor, date)
-  binding.pry
 appointment = Appointment.new(self, doctor, date)
+@appointment << appointment
 end
 
 end
