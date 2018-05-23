@@ -27,4 +27,8 @@ class Doctor
     @appointments
   end
 
+  def patients
+    @patients
+  end
+
 end
