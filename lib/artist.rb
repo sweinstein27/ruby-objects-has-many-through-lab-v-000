@@ -20,6 +20,7 @@ def new_song(name, genre)
 Song.new(name, self, genre)
 @songs << self
 self
+binding.pry
 end
 
 def songs
