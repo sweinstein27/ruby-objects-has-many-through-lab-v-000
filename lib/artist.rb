@@ -26,6 +26,6 @@ def songs
   @songs
 end
 
-
-
+def genre
+@genres
 end
