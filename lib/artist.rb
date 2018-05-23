@@ -18,7 +18,7 @@ end
 
 def new_song(name, genre)
 song = Song.new(name, self, genre)
-@songs << self
+@songs << song
 self
 binding.pry
 end
