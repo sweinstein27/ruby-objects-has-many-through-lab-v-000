@@ -23,4 +23,8 @@ def add_doctor(doctor)
   @doctors << doctor
 end
 
+def doctors
+  @doctors
+end
+
 end
