@@ -13,4 +13,8 @@ appointment = Appointment.new(self, doctor, date)
 @appointment << appointment
 end
 
+def appointments
+  @appointments
+end
+
 end
