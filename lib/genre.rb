@@ -5,5 +5,7 @@ def initialize(name)
   @name = name
 end
 
+def song
+end
 
 end
